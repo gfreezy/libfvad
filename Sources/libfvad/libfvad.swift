@@ -23,7 +23,7 @@ public enum VadVoiceActivity: Int32 {
 public class VoiceActivityDetector {
     private let vad = fvad_new()
     
-    init() {
+    public init() {
         
     }
     
