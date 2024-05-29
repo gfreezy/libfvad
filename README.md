@@ -1,7 +1,7 @@
 # libfvad: voice activity detection (VAD) library
-Most of the code is from [https://github.com/reedom/libfvad_ios].
+Most of the code is from https://github.com/reedom/libfvad_ios .
 
-Swift wrapper.
+This is mostly a swift wrapper.
 
 ## Installation
 
