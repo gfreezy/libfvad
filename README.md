@@ -14,7 +14,7 @@ dependencies: [
 ```
 
 ## How To User
-```
+```swift
 let d = VoiceActivityDetector()
 d.setMode(VadOperatingMode.quality)
 d.setSampleRate(16000)
@@ -26,9 +26,11 @@ let activity: VadVoiceActivity = try buf.withUnsafeBytes { (pointer: UnsafeRawBu
 }
 ```
 
+-----
+
 Apis:
 
-```
+```swift
 public class VoiceActivityDetector {
     ....
     
